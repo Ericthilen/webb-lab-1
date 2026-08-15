@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "title": "Grand Theft Auto V",
+      "developer": "Rockstar Games",
+      "genre": "Action",
+      "year": 2013,
+      "rating": 9,
+      "description": "Ett actionspel i en stor öppen värld där man följer tre olika huvudkaraktärer.",
+      "image": "images/gta5.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Red Dead Redemption 2",
+      "developer": "Rockstar Games",
+      "genre": "Action / Äventyr",
+      "year": 2018,
+      "rating": 7,
+      "description": "Ett berättelsedrivet äventyrsspel som utspelar sig under slutet av den amerikanska vilda västern.",
+      "image": "images/rdr2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Minecraft",
+      "developer": "Mojang Studios",
+      "genre": "Sandbox",
+      "year": 2011,
+      "rating": 9,
+      "description": "Ett kreativt spel där man kan bygga, utforska och överleva i en blockbaserad värld.",
+      "image": "images/minecraft.jpg"
+    },
+    {
+      "id": 4,
+      "title": "EA Sports FC 26",
+      "developer": "EA Sports",
+      "genre": "Sport",
+      "year": 2025,
+      "rating": 8,
+      "description": "Ett fotbollsspel med klubblag, karriärläge och flera olika spellägen.",
+      "image": "images/fc26.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Battlefield",
+      "developer": "Electronic Arts",
+      "genre": "FPS",
+      "year": 2021,
+      "rating": 8,
+      "description": "Ett actionfyllt förstapersonsspel med stora kartor, fordon och multiplayer.",
+      "image": "images/battlefield.jpg"
+    },
+    {
+      "id": 6,
+      "title": "PGA Tour 2K23",
+      "developer": "HB Studios",
+      "genre": "SPORT",
+      "year": 2022,
+      "rating": 9,
+      "description": "Ett realistiskt golfspel där man kan spela på kända golfbanor, skapa sin egen golfare och tävla i PGA Tour.",
+      "image": "images/pgatour23.jpg"
+    }
+  ]
