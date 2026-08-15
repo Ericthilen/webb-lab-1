@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mina spel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container header-content">
+
+        <a class="logo" href="index.html">GameVault</a>
+
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="games.html">Spel</a></li>
+                <li><a href="favorites.html">Mina favoriter</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+<main>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Mina favoritspel</h1>
+            <p>Här är några av mina favoritspel.</p>
+        </div>
+    </section>
+
+    <section class="games-section">
+        <div class="container">
+
+            <!-- Spelen från JSON hamnar här -->
+             <div id="game-container" class="game-grid"></div>
+             
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>GameVault - Webbprojekt 2026</p>
+    </div>
+</footer>
+
+<script src="js/games.js"></script>
+    
+</body>
+</html>
