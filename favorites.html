@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mina favoriter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+
+            <a class="logo" href="index.html">GameVault</a>
+
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="games.html">Spel</a></li>
+                    <li><a href="favorites.html">Mina favoriter</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Välj ditt favoritspel</h1>
+                <p>Berätta vilket spel du gillar mest.</p>
+            </div>
+        </section>
+
+        <section class="favorite-section">
+            <div class="container">
+                <form id="favorite-form">
+
+                    <label for="name">Ditt namn:</label>
+                    <input type="text" id="name">
+
+                    <label for="game">Ditt favoritspel:</label>
+                    <select id="game">
+                        <option value="">Välj ett spel</option>
+                        <option>Grand Theft Auto V</option>
+                        <option>Red Dead Redemption 2</option>
+                        <option>Minecraft</option>
+                        <option>EA Sports FC 26</option>
+                        <option>Battlefield</option>
+                        <option>PGA Tour 2K23</option>
+                    </select>
+
+                    <label for="reason">Varför gillar du detta spel?</label>
+                    <textarea id="reason"></textarea>
+
+                    <button type="submit">Skicka</button>
+
+                    <p id="message"></p>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>GameVault - Webbprojekt 2026</p>
+        </div>
+    </footer>
+
+    <script src="js/favorites.js"></script>
+</body>
+</html>
