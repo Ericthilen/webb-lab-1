@@ -1,5 +1,6 @@
 const form = document.querySelector("#favorite-form");
 const message = document.querySelector("#message");
+const savedFavorite = document.querySelector("#saved-favorite");
 
 form.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -15,7 +16,20 @@ form.addEventListener("submit", (event) => {
     } else if (reason.length < 10) {
         message.textContent = "Anledningen måste vara minst 10 tecken lång.";
     } else {
+        localStorage.setItem("favoriteGame", game);
         message.textContent = `${name}, ditt favoritspel är ${game}! `;
+
+        showFavorite();
     }
 
 });
+
+function showFavorite() {
+    const favoriteGame = localStorage.getItem("favoriteGame");
+
+    if (favoriteGame) {
+        savedFavorite.textContent = `Sparat favoritspel: ${favoriteGame}`;
+    }
+}
+
+showFavorite();
