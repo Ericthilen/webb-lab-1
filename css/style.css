@@ -134,8 +134,16 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .hero {
+        padding: 70px 0;
+    }
+
     .hero h1 {
         font-size: 40px;
+    }
+
+    .navigation ul {
+        gap: 15px;
     }
 }
 
