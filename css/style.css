@@ -23,6 +23,7 @@ body {
 
 .header-content {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -36,13 +37,20 @@ body {
 
 .navigation ul {
     display: flex;
+    flex-direction: row;
     gap: 25px;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .navigation a {
     color: white;
     text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #4d9aff;
 }
 
 /* Startsida */
@@ -63,6 +71,11 @@ body {
     padding: 12px 20px;
     text-decoration: none;
     border-radius: 5px;
+    cursor: pointer
+}
+
+.button:hover {
+    background: #145bb8;
 }
 
 /* Spel */
@@ -106,6 +119,15 @@ body {
     padding: 20px 0;
 }
 
+.menu-button {
+    display: none;
+    font-size: 28px;
+    background: none;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
 /* Tablet */
 @media (max-width: 900px) {
     .game-grid {
@@ -123,9 +145,27 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .header-content,
+    .header-content {
+        flex-wrap: wrap;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+        width: 100%;
+    }
+
+    .navigation.show {
+        display: block;
+    }
+
     .navigation ul {
         flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
     }
 
     .hero h1 {
