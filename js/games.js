@@ -13,6 +13,9 @@ fetch("data/games.json")
         <p>${game.genre}</p>
         <p>${game.description}</p>
         <p><strong>Betyg: ${game.rating}</strong></p>
+
+        <a class="button" href="game.html?id=${game.id}">Läs mer</a>
+        
         </div>
         </article>
          `;
